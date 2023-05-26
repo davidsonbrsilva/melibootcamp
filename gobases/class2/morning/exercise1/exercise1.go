@@ -9,13 +9,15 @@ func Run() {
 }
 
 func getTax(salary float64) float64 {
+	tax := 0.0
+
 	if salary == 50000 {
-		return 0.17
+		tax = 0.17
 	}
 
 	if salary == 150000 {
-		return 0.27
+		tax = 0.27
 	}
 
-	return 0
+	return tax * salary
 }
