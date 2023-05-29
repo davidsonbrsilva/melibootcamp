@@ -10,11 +10,8 @@ type Student struct {
 }
 
 func (student Student) toDetails() string {
-	return fmt.Sprintf(`
-		Nome: %s
-		Sobrenome: %s
-		RG: %s
-		Data de admissão: %s`,
+	return fmt.Sprintf(
+		"Nome: %s\nSobrenome: %s\nRG: %s\nData de admissão: %s\n",
 		student.firstName,
 		student.lastName,
 		student.rg,
