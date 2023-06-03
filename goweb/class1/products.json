@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "name": "Produto 1",
+    "color": "Verde",
+    "price": 9.99,
+    "stock": 20,
+    "code": "ABC123",
+    "isPublished": true,
+    "creationDate": "2023-05-30T10:00:00Z"
+  },
+  {
+    "id": 2,
+    "name": "Produto 2",
+    "color": "Azul",
+    "price": 19.99,
+    "stock": 15,
+    "code": "DEF456",
+    "isPublished": false,
+    "creationDate": "2023-05-31T14:30:00Z"
+  },
+  {
+    "id": 3,
+    "name": "Produto 3",
+    "color": "Vermelho",
+    "price": 14.99,
+    "stock": 10,
+    "code": "GHI789",
+    "isPublished": true,
+    "creationDate": "2023-05-31T18:45:00Z"
+  },
+  {
+    "id": 4,
+    "name": "Produto 4",
+    "color": "Amarelo",
+    "price": 24.99,
+    "stock": 5,
+    "code": "JKL012",
+    "isPublished": true,
+    "creationDate": "2023-06-01T09:15:00Z"
+  },
+  {
+    "id": 5,
+    "name": "Produto 5",
+    "color": "Preto",
+    "price": 29.99,
+    "stock": 12,
+    "code": "MNO345",
+    "isPublished": false,
+    "creationDate": "2023-06-01T16:00:00Z"
+  },
+  {
+    "id": 6,
+    "name": "Produto 6",
+    "color": "Branco",
+    "price": 7.99,
+    "stock": 8,
+    "code": "PQR678",
+    "isPublished": true,
+    "creationDate": "2023-06-01T18:30:00Z"
+  },
+  {
+    "id": 7,
+    "name": "Produto 7",
+    "color": "Rosa",
+    "price": 12.99,
+    "stock": 3,
+    "code": "STU901",
+    "isPublished": true,
+    "creationDate": "2023-06-02T09:45:00Z"
+  },
+  {
+    "id": 8,
+    "name": "Produto 8",
+    "color": "Cinza",
+    "price": 17.99,
+    "stock": 18,
+    "code": "VWX234",
+    "isPublished": false,
+    "creationDate": "2023-06-02T11:30:00Z"
+  },
+  {
+    "id": 9,
+    "name": "Produto 9",
+    "color": "Laranja",
+    "price": 21.99,
+    "stock": 6,
+    "code": "YZA567",
+    "isPublished": true,
+    "creationDate": "2023-06-02T14:15:00Z"
+  }
+]

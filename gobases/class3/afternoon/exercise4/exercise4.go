@@ -63,12 +63,6 @@ func bubleSort(collection []int) {
 	}
 }
 
-func swap(collection []int, position1 int, position2 int) {
-	auxiliar := collection[position1]
-	collection[position1] = collection[position2]
-	collection[position2] = auxiliar
-}
-
 func worker(sortMethodName string, collection []int, sortMethod func([]int), channel chan time.Duration) {
 	start := time.Now()
 	sortMethod(collection)
