@@ -1,8 +1,8 @@
 package handler
 
 import (
-	"class2/afternoon/internal/products"
-	"class2/afternoon/pkg/web"
+	"class4/afternoon/internal/products"
+	"class4/afternoon/pkg/web"
 	"fmt"
 	"os"
 	"strconv"
@@ -25,6 +25,15 @@ func NewProduct(p products.Service) *Product {
 	}
 }
 
+// ListProducts godoc
+// @Summary List products
+// @Tags Products
+// @Description get products
+// @Accept  json
+// @Produce  json
+// @Param token header string true "token"
+// @Success 200 {object} web.Response
+// @Router /products [get]
 func (c *Product) GetAll() gin.HandlerFunc {
 	return func(ctx *gin.Context) {
 		token := ctx.Request.Header.Get("token")
@@ -44,6 +53,16 @@ func (c *Product) GetAll() gin.HandlerFunc {
 	}
 }
 
+// StoreProducts godoc
+// @Summary Store products
+// @Tags Products
+// @Description store products
+// @Accept  json
+// @Produce  json
+// @Param token header string true "token"
+// @Param product body request true "Product to store"
+// @Success 200 {object} web.Response
+// @Router /products [post]
 func (c *Product) Store() gin.HandlerFunc {
 	return func(ctx *gin.Context) {
 		token := ctx.Request.Header.Get("token")
